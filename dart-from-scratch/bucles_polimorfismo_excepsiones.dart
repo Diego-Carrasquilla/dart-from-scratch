@@ -23,7 +23,7 @@ void main() {
     print('Número a Dividir: ');
     double? n = double.tryParse(stdin.readLineSync() ?? '');
     if (n == null) {
-      throw FormatException('Número inválido');
+      throw FormatException('Numero inválido');
     }
 
     print('Divisor: ');
